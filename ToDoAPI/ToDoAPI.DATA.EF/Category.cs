@@ -26,7 +26,5 @@ namespace ToDoAPI.DATA.EF
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<TodoItem> TodoItems { get; set; }
-        public string CategoryDescription { get; set; }
-        public string CategoryName { get; set; }
     }
 }
